@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "src": "img/img-1.jpg",
+            "title": "Fuga asperiores",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "fuga"
+        },
+        {
+            "src": "img/img-2.jpg",
+            "title": "Autem minus animi",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "autem"
+        },
+        {
+            "src": "img/img-3.jpg",
+            "title": "Sed eligendi",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "sed"
+        },
+        {
+            "src": "img/img-4.jpg",
+            "title": "Sapiente dolore ut",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "sapiente"
+        },
+        {
+            "src": "img/img-9.jpg",
+            "title": "Fuga asperiores",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "fuga"
+        },
+        {
+            "src": "img/img-8.jpg",
+            "title": "Autem minus animi",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "autem"
+        },
+        {
+            "src": "img/img-1.jpg",
+            "title": "Fuga asperiores",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "fuga"
+        },
+        {
+            "src": "img/img-2.jpg",
+            "title": "Autem minus animi",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "autem"
+        },
+        {
+            "src": "img/img-3.jpg",
+            "title": "Sed eligendi",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "sed"
+        },
+        {
+            "src": "img/img-4.jpg",
+            "title": "Sapiente dolore ut",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "sapiente"
+        },
+        {
+            "src": "img/img-9.jpg",
+            "title": "Fuga asperiores",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "fuga"
+        },
+        {
+            "src": "img/img-8.jpg",
+            "title": "Autem minus animi",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "mark": "autem"
+        }
+    ]
+}

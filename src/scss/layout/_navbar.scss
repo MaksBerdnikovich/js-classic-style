@@ -1,0 +1,45 @@
+.promotion{
+    position: fixed;
+    min-height: 50px;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+
+    & > div{
+        margin: 0 10px;
+    }
+
+    &__title{
+        font-size: 13px;
+        color: $white;
+    }
+
+    &__btn{
+        .btn{
+            font-weight: 600;
+            font-size: 13px;
+        }
+    }
+}
+
+.navbar{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
+    @include media-breakpoint-down(sm) {
+        top: 0;
+    }
+}

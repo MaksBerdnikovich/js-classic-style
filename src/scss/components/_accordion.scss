@@ -1,0 +1,39 @@
+.accordion{
+  position: relative;
+  padding: 0;
+
+  &__head{
+    position: relative;
+    cursor: pointer;
+    padding: 1em 0 !important;
+
+    h6{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    i{
+      font-size: 10px;
+    }
+
+    &.active i{
+      transform: scale(1, -1);
+    }
+  }
+
+  &__head:first-child {
+    border-top: 1px solid #dee2e6;
+  }
+
+  &__head.active + &__body {
+    display: block;
+  }
+
+  &__body {
+    display: none;
+  }
+}

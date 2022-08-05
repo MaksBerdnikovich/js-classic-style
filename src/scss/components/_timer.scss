@@ -1,0 +1,30 @@
+.timer{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &__block{
+        position: relative;
+        margin: 0 5px;
+        color: $white;
+        white-space: nowrap;
+
+        span{
+            display: inline-block;
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 3px;
+            line-height: 1;
+        }
+
+        #seconds{
+            min-width: 30px;
+        }
+
+        i{
+            font-style: normal;
+            font-size: 12px;
+        }
+    }
+}
+

@@ -1,0 +1,50 @@
+.testmonial {
+  &__title {
+    display: flex;
+    align-items: center;
+
+    h6{
+      margin-bottom: 0;
+      margin-left: 10px;
+    }
+  }
+}
+
+.testmonial-carousel{
+  position: relative;
+
+  &__dots{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    .dot{
+      width: 8px;
+      height: 8px;
+      margin: 0 5px;
+      border-radius: 50%;
+      background-color: rgba($secondary, .5);
+      cursor: pointer;
+
+      &.active{
+        background-color: $primary;
+      }
+    }
+  }
+
+  &__nav{
+    position: absolute;
+    top: -1.5rem;
+    left: 0;
+    display: flex;
+
+    .prev, .next {
+      position: relative;
+      z-index: 5;
+      cursor: pointer;
+      margin-right: 1rem;
+    }
+  }
+}

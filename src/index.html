@@ -1,0 +1,644 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Ollie landing page.">
+    <meta name="author" content="Devcrud">
+    <title>BRIKK - App Landing</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+    <link rel="manifest" href="img/fav/site.webmanifest">
+    <link rel="mask-icon" href="img/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="promotion bg-info navbar-expand-lg fixed-top">
+        <div class="promotion__title">Sale ends in:</div>
+        <div class="promotion__timer">
+            <div class="timer">
+                <div class="timer__block"><span id="days">00</span> <i>Days</i></div>
+                <div class="timer__block"><span id="hours">00</span> <i>Hrs</i></div>
+                <div class="timer__block"><span id="minutes">00</span> <i>Min</i></div>
+                <div class="timer__block"><span id="seconds">00</span> <i>Sec</i></div>
+            </div>
+        </div>
+        <div class="promotion__btn">
+            <a class="btn btn-warning btn-rounded btn-sm" href="javascript:void(0)" data-modal-target="componentsModal">
+                Special Offer
+            </a>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-light bg-light navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="" class="brand-img"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse animate__animated animate__faster" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testmonial">Testmonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="header">
+        <div class="overlay">
+            <div class="overlay__image animate__animated animate__fadeIn"><img src="img/slide1.jpg" alt="slide"></div>
+            <div class="overlay__image animate__animated animate__fadeIn"><img src="img/slide2.jpg" alt="slide"></div>
+            <div class="overlay__image animate__animated animate__fadeIn"><img src="img/slide3.jpg" alt="slide"></div>
+        </div>
+
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="progress">
+                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <div class="container">
+                <div class="carousel-inner">
+                    <div class="carousel-item animate__animated animate__lightSpeedInLeft">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="carousel-title">We Make<br> Creative Design</h1>
+                            <button class="btn btn-primary btn-rounded" data-modal-target="learnMoreModal">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item animate__animated animate__lightSpeedInLeft">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="carousel-title">We Make <br> Responsive Design</h1>
+                            <button class="btn btn-primary btn-rounded" data-modal-target="learnMoreModal">Learn More</button>
+                          </div>
+                    </div>
+                    <div class="carousel-item animate__animated animate__lightSpeedInLeft">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="carousel-title">We Make <br> Simple Design</h1>
+                            <button class="btn btn-primary btn-rounded" data-modal-target="learnMoreModal">Learn More</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="infos container mb-4 mb-md-2">
+            <div class="title">
+                <h6 class="subtitle font-weight-normal">Are locking for</h6>
+                <h5>Lorem inpsum</h5>
+                <p class="font-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="socials text-right">
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <a class="d-block subtitle"><i class="ti-microphone pr-2"></i> (123) 456-7890</a>
+                        <a class="d-block subtitle"><i class="ti-email pr-2"></i> info@website.com</a>
+                    </div>
+                    <div class="col">
+                        <h6 class="subtitle font-weight-normal mb-2">Social Media</h6>
+                        <div class="social-links">
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-facebook"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-twitter-alt"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-google"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-pinterest-alt"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-instagram"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-rss"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="about">
+
+        <div class="container">
+
+            <div class="row align-items-center mr-auto">
+                <div class="col-md-4">
+                    <h6 class="xs-font mb-0">nobis dolorem sapiente evenie.</h6>
+                    <h3 class="section-title">About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sunt, unde aperiam aliquid quia repudiandae, ex harum quis amet delectus maxime, tempora possimus aut laboriosam magni corrupti labore. Doloremque, sit?</p>
+
+                    <a href="javascript:void(0)">Read more...</a>
+                </div>
+                <div class="col-sm-6 col-md-4 ml-auto">
+                    <div class="widget">
+                        <div class="icon-wrapper">
+                            <i class="ti-calendar"></i>
+                        </div>
+                        <div class="infos-wrapper">
+                            <h4 class="text-primary">15+</h4>
+                            <p>onsectetur perspiciatis</p>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="icon-wrapper">
+                            <i class="ti-face-smile"></i>
+                        </div>
+                        <div class="infos-wrapper">
+                            <h4 class="text-primary">125+</h4>
+                            <p>onsectetur perspiciatis</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="widget">
+                        <div class="icon-wrapper">
+                            <i class="ti-star"></i>
+                        </div>
+                        <div class="infos-wrapper">
+                            <h4 class="text-primary">3434+</h4>
+                            <p>onsectetur perspiciatis</p>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="icon-wrapper">
+                            <i class="ti-user"></i>
+                        </div>
+                        <div class="infos-wrapper">
+                            <h4 class="text-primary">80+</h4>
+                            <p>onsectetur perspiciatis</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h6 class="xs-font mb-0">Blanditiis unde illum earum</h6>
+            <h3 class="section-title mb-4">Expertises</h3>
+
+            <div class="tabs">
+                <div class="tabs__nav">
+                    <ul class="tabs__nav-list">
+                        <li><a href="javascript:void(0)" class="tabs__nav-item">Codding &amp; Designing</a></li>
+                        <li><a href="javascript:void(0)" class="tabs__nav-item" data-tabs-nav>Graphic Design</a></li>
+                        <li><a href="javascript:void(0)" class="tabs__nav-item" data-tabs-nav>Development</a></li>
+                    </ul>
+                </div>
+                <div class="tabs__content">
+                    <div class="row text-center tabs__content-item animate__animated animate__flipInX">
+                        <div class="col-lg-4">
+                            <a href="javascript:void(0)" class="card border-0 text-dark">
+                                <img class="card-img-top" src="img/img-5.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                                <span class="card-body">
+                            <h4 class="title mt-4">Project Title</h4>
+                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="javascript:void(0)" class="card border-0 text-dark">
+                                <img class="card-img-top" src="img/img-6.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                                <span class="card-body">
+                              <h4 class="title mt-4">Project Title</h4>
+                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="javascript:void(0)" class="card border-0 text-dark">
+                                <img class="card-img-top" src="img/img-7.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                                <span class="card-body">
+                             <h4 class="title mt-4">Project Title</h4>
+                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row text-center tabs__content-item animate__animated animate__flipInX">
+                        <div class="col-lg-4">
+                            <a href="javascript:void(0)" class="card border-0 text-dark">
+                                <img class="card-img-top" src="img/img-6.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                                <span class="card-body">
+                              <h4 class="title mt-4">Project Title</h4>
+                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="javascript:void(0)" class="card border-0 text-dark">
+                                <img class="card-img-top" src="img/img-7.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                                <span class="card-body">
+                             <h4 class="title mt-4">Project Title</h4>
+                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="javascript:void(0)" class="card border-0 text-dark">
+                                <img class="card-img-top" src="img/img-5.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                                <span class="card-body">
+                            <h4 class="title mt-4">Project Title</h4>
+                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row text-center tabs__content-item animate__animated animate__flipInX">
+                        <div class="col-lg-4">
+                            <a href="javascript:void(0)" class="card border-0 text-dark">
+                                <img class="card-img-top" src="img/img-7.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                                <span class="card-body">
+                             <h4 class="title mt-4">Project Title</h4>
+                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="javascript:void(0)" class="card border-0 text-dark">
+                                <img class="card-img-top" src="img/img-5.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                                <span class="card-body">
+                            <h4 class="title mt-4">Project Title</h4>
+                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="javascript:void(0)" class="card border-0 text-dark">
+                                <img class="card-img-top" src="img/img-6.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                                <span class="card-body">
+                              <h4 class="title mt-4">Project Title</h4>
+                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="portfolio">
+        <div class="container">
+            <div class="d-flex bd-highlight mb-3 flex-wrap">
+                <div class="mr-auto bd-highlight">
+                    <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
+                    <h3 class="section-title pb-4">Our Products</h3>
+                </div>
+                <div class="bd-highlight">
+                    <div class="btn-group filtered-products" role="group">
+                        <button data-filter=".all" class="btn btn-primary">All</button>
+                        <button data-filter=".fuga" class="btn btn-outline-primary">Fuga</button>
+                        <button data-filter=".autem" class="btn btn-outline-primary">Autem</button>
+                        <button data-filter=".sed" class="btn btn-outline-primary">Sed</button>
+                        <button data-filter=".sapiente" class="btn btn-outline-primary">Sapiente</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row products-section"></div>
+
+            <div class="d-flex justify-content-center mt-5">
+                <button type="button" class="btn btn-primary btn-lg load-more-btn">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="testmonial">
+        <div class="container testmonial">
+            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
+            <div class="testmonial__title">
+                <h3 class="section-title">Testmonials</h3>
+                <h6>(<span class="testmonial__current"></span> / <span class="testmonial__total"></span>)</h6>
+            </div>
+
+            <div class="testmonial-carousel mt-4">
+                <div class="testmonial-carousel__wrap">
+                    <div class="item animate__animated animate__flipInX">
+                        <div class="textmonial-item">
+                            <img src="img/avatar1.jpg" class="avatar" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                            <div class="des">
+                                <h5 class="ti-quote-left font-weight-bold"></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ea facere voluptatum corrupti doloremque odit sequi labore rerum maiores libero.adipisicing elit. Vitae quasi voluptatem sed quaerat dolorum architecto reiciendis magni laboriosam, illum, nobis, quae dolor, ducimus libero! Sapiente deleniti sit dolor, ex possimus.</p>
+                                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+                                <div class="line"></div>
+                                <h6 class="name">Emma Re</h6>
+                                <h6 class="xs-font">Full stack developer</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item animate__animated animate__flipInX">
+                        <div class="textmonial-item">
+                            <img src="img/avatar2.jpg" class="avatar" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                            <div class="des">
+                                <h5 class="ti-quote-left font-weight-bold"></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ea facere voluptatum corrupti doloremque odit sequi labore rerum maiores libero.adipisicing elit. Vitae quasi voluptatem sed quaerat dolorum architecto reiciendis magni laboriosam, illum, nobis, quae dolor, ducimus libero! Sapiente deleniti sit dolor, ex possimus.</p>
+                                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+                                <div class="line"></div>
+                                <h6 class="name">John Doe</h6>
+                                <h6 class="xs-font">Graphic Designer</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item animate__animated animate__flipInX">
+                        <div class="textmonial-item">
+                            <img src="img/avatar3.jpg" class="avatar" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                            <div class="des">
+                                <h5 class="ti-quote-left font-weight-bold"></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ea facere voluptatum corrupti doloremque odit sequi labore rerum maiores libero.adipisicing elit. Vitae quasi voluptatem sed quaerat dolorum architecto reiciendis magni laboriosam, illum, nobis, quae dolor, ducimus libero! Sapiente deleniti sit dolor, ex possimus.</p>
+                                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+                                <div class="line"></div>
+                                <h6 class="name">Emily Roe</h6>
+                                <h6 class="xs-font">Freelancer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-overlay">
+
+        <div class="container">
+            <div class="infos mb-4 mb-md-2">
+            <div class="title">
+                <h6 class="subtitle font-weight-normal">Are locking for</h6>
+                <h5>Lorem inpsum</h5>
+                <p class="font-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="socials">
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <a class="d-block subtitle"><i class="ti-microphone"></i> (123) 456-7890</a>
+                        <a class="d-block subtitle"><i class="ti-email"></i> info@website.com</a>
+                    </div>
+                    <div class="col">
+                        <h6 class="subtitle font-weight-normal mb-1">Social Media</h6>
+                        <div class="social-links">
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-facebook"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-twitter-alt"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-google"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-pinterest-alt"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-instagram"></i></a>
+                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-rss"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="section" id="blog">
+
+        <div class="container mb-3">
+            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
+            <h3 class="section-title mb-5">Our Blog</h3>
+
+            <div class="blog-wrapper">
+                <div class="img-wrapper">
+                    <img src="img/img-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
+                    <div class="date-container">
+                        <h6 class="day">29</h6>
+                        <h6 class="mun">Jun</h6>
+                    </div>
+                </div>
+                <div class="txt-wrapper">
+                    <h4 class="blog-title">Lorem ipsum dolor.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum vitae ducimus dolor sed numquam, assumenda non dolorem in facilis eius alias voluptates, fugit maiores aspernatur ad rem saepe molestiae consequuntur. adipisicing elit. Repellat nam placeat laboriosam dolorum aperiam fuga voluptate, quis ea vel ab sunt incidunt quasi, molestias atque deserunt voluptates quae voluptatum sit.</p>
+
+                    <a href="#" class="badge badge-info">Graphic Design</a>
+
+                    <h6 class="blog-footer">
+                        <a href="javascript:void(0)"><i class="ti-user"></i> Admin </a> |
+                        <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 213 </a> |
+                        <a href="javascript:void(0)"><i class="ti-comments"></i> 123</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section pb-0">
+
+        <div class="container">
+            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
+            <h3 class="section-title mb-5">Contact Us</h3>
+
+            <div class="row justify-content-between">
+                <div class="col-md-8 col-lg-7">
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="col-lg-6 form-group">
+                                <input type="text" class="form-control" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-lg-6 form-group">
+                                <input type="text" class="form-control" name="surname" placeholder="Surname">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-6 form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-lg-6 form-group">
+                                <input type="text" class="form-control" name="phone" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-file">
+                                <input type="file" name="upload" class="custom-file-input" multiple accept="image/*">
+                                <label class="custom-file-label">Choose file</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-lg-5 order-0">
+                    <div class="accordion list">
+                        <div class="accordion__head list-head active"><h6>Contact Info  <i class="ti-angle-down"></i></h6></div>
+                        <div class="accordion__body list-body">
+                            <p class="py-2">Contact us and we'll get back to you within 24 hours.</p>
+                            <p class="py-2"><i class="ti-email"></i> info@website.com</p>
+                            <p class="py-2"><i class="ti-microphone"></i> (123) 456-7890</p>
+                        </div>
+                        <div class="accordion__head list-head"><h6>Location <i class="ti-angle-down"></i></h6></div>
+                        <div class="accordion__body list-body">
+                            <p class="py-2">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3492.196407659701!2d-81.92233338442804!3d28.922218677660428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e7c6ef686b981b%3A0x9d5150db94e93bc4!2sWater%20Oak%20Country%20Club%20Estates!5e0!3m2!1sru!2sby!4v1659303024285!5m2!1sru!2sby" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer mt-5 border-top">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-6 text-center text-md-left">
+                        <p class="mb-0">&copy; Copyright <script>document.write(new Date().getFullYear())</script></p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="social-links">
+                            <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                            <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                            <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                            <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                            <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                            <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <section class="modals">
+        <div class="modal animate__animated animate__flipInX animate__faster" data-modal="componentsModal">
+            <div class="modal-dialog modal-dialog-centered w-25">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Request a call</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body p-4 align-content-center">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="phone" placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-block">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal animate__animated animate__flipInX animate__faster" data-modal="showModalByTime">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Show Modal By Time</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cum enim esse est eum
+                        facilis, harum ipsa labore nihil numquam, pariatur, quas ratione reiciendis sapiente sed veniam
+                        voluptatibus. Ea, harum.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal animate__animated animate__flipInX animate__faster" data-modal="showModalByScroll">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Show Modal By Scroll</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cum enim esse est eum
+                        facilis, harum ipsa labore nihil numquam, pariatur, quas ratione reiciendis sapiente sed veniam
+                        voluptatibus. Ea, harum.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal animate__animated animate__flipInX animate__faster" data-modal="showModalByCalc">
+            <div class="modal-dialog modal-dialog-centered w-auto">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Calc a product</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body p-4 align-content-center">
+                        <form class="calc-form">
+                            <div class="form-group">
+                                <label for="sizeSelect">Select Size</label>
+                                <select class="form-control" id="sizeSelect">
+                                    <option value="">-</option>
+                                    <option value="1000">40 x 50 cm</option>
+                                    <option value="1500">50 x 60 cm</option>
+                                    <option value="2000">60 x 70 cm</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="materialSelect">Select Material</label>
+                                <select class="form-control" id="materialSelect">
+                                    <option value="">-</option>
+                                    <option value="1.1">Fiber canvas</option>
+                                    <option value="1.2">Linen canvas</option>
+                                    <option value="1.3">Natural cotton canvas</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="additionalServices">Additional services</label>
+                                <select class="form-control" id="additionalServices">
+                                    <option value="">-</option>
+                                    <option value="1000">Art gel coating</option>
+                                    <option value="2000">Express production</option>
+                                    <option value="500">Delivery of finished works</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="promoCode">Promo Code</label>
+                                <input class="form-control" type="text" id="promoCode" placeholder="enter promo">
+                            </div>
+                            <div class="form-group">
+                                <label id="calcError" style="font-size: 12px; color: red">* Please select size and material</label>
+                                <input type="text" style="font-size: 32px; font-weight: bolder;" disabled class="form-control-plaintext" id="calcResult" value="$ 0">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
